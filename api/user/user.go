@@ -6,3 +6,10 @@ type User struct {
 	Surname string `json:"surname"`
 	Type    string `json:"type"`
 }
+
+//Use for signin and signup actions
+type UserData struct {
+	User     User   `json:"user"`
+	Email    string `json:"email"`
+	Password string `json:"password"`
+}
