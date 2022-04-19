@@ -1,4 +1,4 @@
-package user
+package api
 
 type User struct {
 	UserID  string `json:"user_id"`
